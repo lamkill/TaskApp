@@ -17,9 +17,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" android:orientation="horizontal">
+        android:layout_height="41dp"
+        android:orientation="horizontal">
+
         <Button
-            android:id="@+id/btnCategoria"
+            android:id="@+id/btnAgCategoria"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="AGREGAR CATEGORIA"
@@ -27,8 +29,35 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="25dp" />
+
+        <Button
+            android:id="@+id/btnCategoria4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AGREGAR CATEGORIA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="25dp" />
+
+        <Button
+            android:id="@+id/btnCategoria2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AGREGAR CATEGORIA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="25dp" />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btnVerCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER CATEGORIA" />
 
 
 </LinearLayout>
