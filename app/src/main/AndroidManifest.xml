@@ -18,8 +18,13 @@
         </activity>
         <activity android:name=".vista.CategoriaActivity" />
         <activity android:name=".vista.CategoriaListaActivity" />
-        <activity android:name=".Login" />
-        <activity android:name=".Registro"></activity>
+        <activity android:name=".vista.Login" />
+        <activity android:name=".vista.Registro" />
+        <activity android:name=".vista.EstadoTarea" />
+        <activity android:name=".vista.TareaUsuarioNormal" />
+        <activity android:name=".vista.EstadoTareas" />
+        <activity android:name=".vista.UsuarioTecnico" />
+        <activity android:name=".vista.AsignarTareaUsuarioNormal"></activity>
     </application>
 
 </manifest>
