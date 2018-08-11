@@ -18,7 +18,7 @@
         android:layout_marginTop="16dp"
         android:background="@android:color/holo_red_dark"
         android:text="Pendiente"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/btnETAgregarNota"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,7 +35,7 @@
         android:text="Busqueda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/btnETAgregarNota"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button

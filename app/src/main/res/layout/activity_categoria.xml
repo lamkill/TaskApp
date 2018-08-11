@@ -11,7 +11,7 @@
         android:id="@+id/rCategoria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registro de Categoria"
+        android:text="Registrar Categoria"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,8 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Descripción"
         android:inputType="textPersonName"
-        android:hint="Nombre"
         tools:layout_editor_absoluteX="5dp"
         tools:layout_editor_absoluteY="95dp" />
 

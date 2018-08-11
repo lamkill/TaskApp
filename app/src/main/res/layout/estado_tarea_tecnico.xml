@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".vista.UsuarioTecnico">
+    tools:context=".vista.EstadoTareaTecnico">
 
     <EditText
-        android:id="@+id/TV_fecha"
+        android:id="@+id/fechaTxtETT"
         android:layout_width="102dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
@@ -15,18 +15,18 @@
         android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="date"
-        android:text="03/12/2018"
+        android:text="00-00-0000"
         android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnListo"
+        android:id="@+id/btnListoETT"
         android:layout_width="95dp"
-        android:layout_height="45dp"
+        android:layout_height="37dp"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
         android:background="@android:color/holo_blue_dark"
         android:text="Listo"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,10 +36,13 @@
         android:id="@+id/btnAgNota"
         android:layout_width="118dp"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_dark"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_green_light"
         android:text="Agregar Nota"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="296dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionTxtETT" />
 
     <TextView
         android:id="@+id/textView"
@@ -52,7 +55,7 @@
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/creadorTxtETT" />
 
     <TextView
         android:id="@+id/textView4"
@@ -65,7 +68,7 @@
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnListo" />
+        app:layout_constraintTop_toBottomOf="@+id/btnListoETT" />
 
     <TextView
         android:id="@+id/textView3"
@@ -78,10 +81,10 @@
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+        app:layout_constraintTop_toBottomOf="@+id/tipoCategoriaTxtETT" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/creadorTxtETT"
         android:layout_width="281dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -92,7 +95,7 @@
         tools:layout_editor_absoluteX="33dp" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/tipoCategoriaTxtETT"
         android:layout_width="283dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"
@@ -106,7 +109,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/descripcionTxtETT"
         android:layout_width="283dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"
@@ -118,13 +121,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <ListView
-        android:layout_width="368dp"
-        android:layout_height="150dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="344dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
