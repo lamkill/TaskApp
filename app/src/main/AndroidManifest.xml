@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ado.edu.itla.taskapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,23 +11,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".vista.CategoriaActivity" />
+        <activity android:name=".vista.CategoriaListaActivity" />
+        <activity android:name=".vista.LoginUsuario" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".vista.CategoriaActivity" />
-        <activity android:name=".vista.CategoriaListaActivity" />
-        <activity android:name=".vista.Login" />
-        <activity android:name=".vista.Registro" />
+        <activity android:name=".vista.RegistroUsuario" />
         <activity android:name=".vista.EstadoTareaNormal" />
         <activity android:name=".vista.TareaUsuarioNormal" />
-        <activity android:name=".vista.EstadoTareas" />
+        <!--<activity android:name=".vista.EstadoTareas" />-->
         <activity android:name=".vista.EstadoTareaTecnico" />
         <activity android:name=".vista.AsignarTarea" />
-        <activity android:name=".vista.TareaTecnico"></activity>
+        <activity android:name=".vista.TareaTecnico"/>
     </application>
 
 </manifest>
